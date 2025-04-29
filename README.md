@@ -1,12 +1,30 @@
-# React + Vite
+Live at:  https://data-explorer-weld.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pokemon Data Explorer
+A React application that fetches and displays data from the PokeAPI. It allows users to search and filter Pokemon by type (Fire, Water, Grass, etc.) and view Pokemon details such as name, image, type, and ID number.
 
-Currently, two official plugins are available:
+Features
+1) Fetch Data: Displays the first 150 Pokémon.
+2) Search: Real-time search to filter Pokémon by name.
+3) Filter by Type: Filters Pokemon by their type (Ex: Fire, Water).
+4) Responsive UI: Works on both desktop and mobile devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Installation
 
-## Expanding the ESLint configuration
+Clone the repository:
+git clone https://github.com/Faraan10/Data-Explorer.git
+cd Data-Explorer
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install dependencies:
+npm install
+
+Start the application:
+
+npm run dev
+
+
+Technologies Used:
+1) React.Js
+2) Tailwind CSS
+3) Daisy UI
+4) PokeAPI
