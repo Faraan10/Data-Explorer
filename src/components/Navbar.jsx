@@ -19,7 +19,11 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex justify-between items-center w-full">
         {/* Logo on the left */}
         <Link to="/" className="text-xl font-bold flex items-center">
-          <img src="img" alt="app logo" className="max-w-[140px] h-auto" />
+          <img
+            src="/pokemon.png"
+            alt="app logo"
+            className="max-w-[140px] h-auto"
+          />
         </Link>
 
         {/* Right-aligned content */}

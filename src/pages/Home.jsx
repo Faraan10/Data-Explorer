@@ -73,7 +73,7 @@ const Home = () => {
       <div className="flex justify-center gap-10 items-center mb-6">
         <input
           type="text"
-          placeholder="Search Pokémon"
+          placeholder="Search Pokemon"
           value={searchName}
           onChange={handleSearch}
           className="input input-bordered w-80"
