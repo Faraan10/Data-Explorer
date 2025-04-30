@@ -1,5 +1,5 @@
 const Skeleton = () => {
-  const skeletonItems = Array.from({ length: 30 }); // skeletons count
+  const skeletonItems = Array.from({ length: 150 }); // skeletons count
 
   return (
     <div className="flex justify-center">
