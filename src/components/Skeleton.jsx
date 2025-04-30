@@ -1,4 +1,6 @@
 const Skeleton = () => {
+  console.log("Hello");
+
   return (
     <>
       <div className="flex w-52 flex-col gap-4">
